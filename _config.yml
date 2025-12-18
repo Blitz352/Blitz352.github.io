@@ -316,7 +316,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: "baz-boom-identity.md"
+      path: "test/_posts/2012-03-15-layout-header-image-external.md"
       type: posts
     values:
       layout: single
@@ -328,7 +328,7 @@ defaults:
 ---
 title: Portfolio
 layout: collection
-permalink: /portfolio/
+permalink: /portfolio/baz-boom-identity.md
 collection: portfolio
 entries_layout: grid
 classes: wide
