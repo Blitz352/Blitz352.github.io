@@ -1,0 +1,10 @@
+/* Move main navigation to the left */
+.masthead__menu {
+  justify-content: flex-start;
+}
+
+/* Optional: reduce gap between site title and nav */
+.masthead__menu-item {
+  margin-left: 0;
+  margin-right: 1.5em;
+}
