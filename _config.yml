@@ -14,6 +14,14 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+# Custom CSS
+sass:
+  sass_dir: _sass
+  ---
+---
+@import "minimal-mistakes";
+@import "custom";
+
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
