@@ -5,8 +5,8 @@ main:
    - title: "Home"
      url: https://blitz352.github.io
    - title: "Project Portfolio"
-     url: /year-archive/
+   #  url: /year-archive/
    - title: "Work Experience"
-     url: /collection-archive/
+  #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
