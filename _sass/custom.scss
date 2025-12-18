@@ -1,23 +1,19 @@
-/* Force the whole masthead row to pack left */
-.masthead__inner-wrap {
-  justify-content: flex-start;
-}
+/* ========================================= */
+/* Custom overrides for Minimal Mistakes     */
+/* ========================================= */
 
-/* Greedy-nav is the actual flex container for the menu */
-.greedy-nav {
-  justify-content: flex-start;
-}
-
-/* This is what usually pushes menu items to the right */
-.greedy-nav a.site-title {
-  margin-right: 1.5rem; /* instead of auto */
-}
-/* Move nav left */
+/* Force the main navigation to align left */
 .greedy-nav {
   justify-content: flex-start !important;
 }
 
-/* Stop site title from pushing nav to the right */
+/* THIS is the critical rule that fixes it */
+/* Default theme sets margin-left: auto here */
+.greedy-nav .visible-links {
+  margin-left: 0 !important;
+}
+
+/* Add spacing between site title and nav */
 .greedy-nav a.site-title {
   margin-right: 1.5rem !important;
 }
