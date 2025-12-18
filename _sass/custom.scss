@@ -12,3 +12,12 @@
 .greedy-nav a.site-title {
   margin-right: 1.5rem; /* instead of auto */
 }
+/* Move nav left */
+.greedy-nav {
+  justify-content: flex-start !important;
+}
+
+/* Stop site title from pushing nav to the right */
+.greedy-nav a.site-title {
+  margin-right: 1.5rem !important;
+}
