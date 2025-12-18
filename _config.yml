@@ -119,7 +119,7 @@ author:
   location         : "Knoxville, TN"
   email            : "kbush15@vols.utk.edu"
   links:
-    - label: "Mail"
+    - label: "EMail"
       icon: "fas fa-fw fa-envelope-square"
        url: "mailto:kbush15@vols.utk.edu"
  #   - label: "Website"
