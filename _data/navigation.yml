@@ -3,10 +3,10 @@ main:
   # - title: "Quick-Start Guide"
    # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "Home"
-     url: https://blitz352.github.io
+     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "Project Portfolio"
-   #  url: /year-archive/
+     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "Work Experience"
-  #   url: /collection-archive/
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "Sitemap"
   #   url: /sitemap/
