@@ -316,7 +316,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "baz-boom-identity.md"
       type: posts
     values:
       layout: single
