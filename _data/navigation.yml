@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Home"
-    url: https://blitz352.github.io/
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "Project Portfolio"
      url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
