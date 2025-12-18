@@ -1,9 +1,16 @@
-# main links
 main:
-  - title: "Portfolio"
-    url: /portfolio/
-  - title: "Experience"
-    url: /experience/
-  - title: "Resume"
-    url: /resume/
-
+  - title: "Quick-Start Guide"
+    url: /docs/quick-start-guide/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Pages"
+    url: /page-archive/
+  - title: "Collections"
+    url: /collection-archive/
+  - title: "External Link"
+    url: https://google.com
+    target: _blank
