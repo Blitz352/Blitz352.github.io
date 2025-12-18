@@ -1,10 +1,14 @@
-/* Move main navigation to the left */
-.masthead__menu {
+/* Force the whole masthead row to pack left */
+.masthead__inner-wrap {
   justify-content: flex-start;
 }
 
-/* Optional: reduce gap between site title and nav */
-.masthead__menu-item {
-  margin-left: 0;
-  margin-right: 1.5em;
+/* Greedy-nav is the actual flex container for the menu */
+.greedy-nav {
+  justify-content: flex-start;
+}
+
+/* This is what usually pushes menu items to the right */
+.greedy-nav a.site-title {
+  margin-right: 1.5rem; /* instead of auto */
 }
